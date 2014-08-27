@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     color_divider (0.0.3)
       hex_to_rgb (= 0.1.0)

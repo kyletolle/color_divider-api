@@ -3,6 +3,13 @@ require 'color_divider'
 
 class ColorDivider
   class API < Sinatra::Base
+    use Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', :headers => :any, :methods => [:get, :post, :options]
+      end
+    end
+
     # Idea from http://www.recursion.org/2011/7/21/modular-sinatra-foreman
     configure do
       set :app_file, __FILE__

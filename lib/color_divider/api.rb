@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'color_divider'
+require 'rack/cors'
 
 class ColorDivider
   class API < Sinatra::Base

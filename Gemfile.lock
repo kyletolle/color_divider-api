@@ -47,3 +47,9 @@ DEPENDENCIES
   rake (~> 10.3.2)
   rspec (~> 3.0.0)
   sinatra (~> 1.4.5)
+
+RUBY VERSION
+   ruby 2.7.0p0
+
+BUNDLED WITH
+   2.1.4
